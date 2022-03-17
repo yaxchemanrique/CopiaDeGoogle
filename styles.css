@@ -1,0 +1,101 @@
+body{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+}
+a{
+    color: rgba(0,0,0,0.87);
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+nav{
+    text-align: right;
+}
+.nav-icon{
+    vertical-align: middle;
+    padding-left: 20px;
+}
+.hover-effect{
+    background-color: rgba(60,64,67,0.08);
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    position: absolute;
+    right: 3px;
+    top:3px;
+    opacity: 0;
+}
+.hover-effect:hover{
+    opacity: 1;
+}
+.hover-effect-2{
+    background-color: rgba(60,64,67,0.08);
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    position: absolute;
+    right: 51px;
+    top:3px;
+    opacity: 0;
+}
+.hover-effect-2:hover{
+    opacity: 1;
+}
+.image-main{
+    text-align: center;
+    padding: 50px;
+}
+.my-input{
+    border-style: solid;
+    border-color: rgba(48, 48, 48, 0.2);
+    border-radius: 40px;
+    border-width: 1px;
+    height: 45px;
+    width: 600px;
+    background-color: whitered;
+    text-align: center;
+    margin: auto;
+}
+.icon-lupa{
+    height: 15px;
+    position: relative;
+    top: 14px;
+    left: -265px;
+}
+.icon-mic{
+    height: 17px;
+    position: relative;
+    top: 14px;
+    left: 260px;
+}
+button{
+    border: 0;
+    background-color: #f8f9fa;
+    order: 1px solid #f8f9fa;
+    color:##3c4043;
+    margin: 11px 4px;
+    padding: 0px 16px;
+    line-height: 27px;
+    height: 36px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.botones{
+    margin-top: 20px;
+    text-align: center;
+}
+.link-azul{
+    color: #1a0dab;
+}
+#offered{
+    margin-top: 14px;
+    font-size: small;
+    text-align: center;
+}
+footer{
+    background-color: #70757a;
+}
